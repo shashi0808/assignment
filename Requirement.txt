@@ -1,0 +1,20 @@
+Overview
+
+Build a simple backend using Express.js + Prisma
+(SQLite/MySQL) with JWT auth and socket updates.
+
+Objectives
+1. User Auth
+● Register: name, email, password (hashed).
+● Login: return access + refresh tokens in HTTP-only cookies.
+● Implement Token Refresh
+
+2. Product API
+● Create Product (name, price, stock) → Auth required.
+● Get Products with filters (list all).
+
+3. Order API
+● Create Order: user can order a product (reduce stock) → Auth required.
+
+4. Socket Updates
+● On new order, notify admin .
